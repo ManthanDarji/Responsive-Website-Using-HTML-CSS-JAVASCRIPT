@@ -7,10 +7,8 @@
 * css 
 * javascript
 
-## Demo
-https://user-images.githubusercontent.com/81868489/114698717-0d802580-9d3d-11eb-8bb3-361331626609.mp4
-
-
+## screenshots
+[](img/Capture1.PNG)
 
 Contributing
 ==========
