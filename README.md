@@ -7,7 +7,8 @@
 * css 
 * javascript
 
-## screenshots![Capturr1](https://user-images.githubusercontent.com/81868489/114701652-b5e3b900-9d40-11eb-8880-da0c4ed5379e.PNG)
+## screenshots!
+[Capturr1](https://user-images.githubusercontent.com/81868489/114701652-b5e3b900-9d40-11eb-8880-da0c4ed5379e.PNG)
 
 
 ![Capture2](https://user-images.githubusercontent.com/81868489/114701665-b9774000-9d40-11eb-8659-c53a41de3e6a.PNG)
