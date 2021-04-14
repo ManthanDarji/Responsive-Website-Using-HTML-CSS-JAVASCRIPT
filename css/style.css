@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: none;
+    height: 64px;
+}
+.navbar{
+    padding: 2px 0px;
+    background-color: black;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+}
+.logo{
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 48px;
+    width: 34%;
+    border: 2px solid white;
+    border-radius: 28px;
+    outline: none;
+    margin: 1px 7px;
+   
+}
+.nav-list{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    
+}
+.right-nav{
+    width: 50%;
+    text-align: right;
+    margin: 1px 5px;
+}
+.right-nav input{
+    margin-top: 3px;
+    border-radius: 12px;
+    font-size: 17px;
+    padding: 1px 13px;
+    outline:none;
+}
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin: 10px 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.navbar li a:hover{
+    color: grey;
+}
+.navbar li {
+    list-style: none;
+}
+.btn-sm{
+    vertical-align: middle;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    padding: 4px 13px;
+    outline: none;
+}
+.background{
+    background: rgba(0 ,0, 0 , 0.7) url('../img/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    width: 50%;
+    height: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstsection{
+    height: 100vh;
+    
+}
+.firsthalf{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf img{
+    width: 65%;
+    display: block;
+    border: 3px solid white;
+    border-radius: 81px;
+    height: 164px;
+    margin: auto;
+}
+.text-big{
+    font-size: 28px;
+}
+.text-small{
+    
+    font-size: 16px;
+}
+.btn{
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    padding: 4px 13px;
+    outline: none;
+    margin: 4px 1px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    color: grey;
+}
+.btn-sm:hover{
+    color: grey;
+
+}
+.section{
+    height: 420x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 83%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Left{
+    height: 420px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu';
+    max-width: 83%;
+    margin: auto;
+}
+.para{
+    margin: 23px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    padding: 0px 50px;
+}
+.thumbnail img{
+    width: 255px;
+    border: 4px solid black;
+    border-radius: 23px;
+    outline: none;
+}
+.form-container{
+    padding: 23px;
+    text-align: center;
+    height: 500px;
+    background-color: whitesmoke;
+}
+/* //without using flexbox */
+form input{
+    display: block;
+    width: 444px;
+    margin: 12px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 422px;
+}
+form input,textarea{
+    margin: 5px 0px;
+    padding: 7px 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    width: 467px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+.btn-form{
+    padding: 12px 22px;
+    border: 2px solid black;
+    background-color: grey;
+    color:white;
+    font-weight: bold;
+    border-radius: 6px;
+    outline: none;
+    font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-center{
+    text-align: center;
+    font-size: 23px;
+    border: 2px solid black;
+    /* background: black; */
+    color: white;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 3.4%;
+    top: 15px;
+}
+.line{
+    background-color: white;
+    width: 28px;
+    height: 3px;
+    margin: 4px
+}
+.form-container h2{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
